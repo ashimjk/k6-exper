@@ -1,0 +1,12 @@
+run:
+	k6 run sample/script.js
+
+with-vm:
+	k6 run --vus 10 --duration 30s sample/script.js
+
+output:
+	k6 run --out json=sample/test.json sample/script.js
+
+summary:
+	k6 run --summary-export=sample/export.json sample/script.js
+

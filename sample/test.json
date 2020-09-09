@@ -1,0 +1,2546 @@
+{
+  "type": "Metric",
+  "data": {
+    "name": "http_reqs",
+    "type": "counter",
+    "contains": "default",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "http_reqs"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:39.702466462+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_reqs"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "http_req_duration",
+    "type": "trend",
+    "contains": "time",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "http_req_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:39.702466462+05:45",
+    "value": 327.166837,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_duration"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "http_req_blocked",
+    "type": "trend",
+    "contains": "time",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "http_req_blocked"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:39.702466462+05:45",
+    "value": 395.949394,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_blocked"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "http_req_connecting",
+    "type": "trend",
+    "contains": "time",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "http_req_connecting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:39.702466462+05:45",
+    "value": 390.387217,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_connecting"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "http_req_tls_handshaking",
+    "type": "trend",
+    "contains": "time",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "http_req_tls_handshaking"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:39.702466462+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_tls_handshaking"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "http_req_sending",
+    "type": "trend",
+    "contains": "time",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "http_req_sending"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:39.702466462+05:45",
+    "value": 0.163669,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_sending"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "http_req_waiting",
+    "type": "trend",
+    "contains": "time",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "http_req_waiting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:39.702466462+05:45",
+    "value": 326.22477,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_waiting"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "http_req_receiving",
+    "type": "trend",
+    "contains": "time",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "http_req_receiving"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:39.702466462+05:45",
+    "value": 0.778398,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_receiving"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "vus",
+    "type": "gauge",
+    "contains": "default",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:39.96722028+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "vus_max",
+    "type": "gauge",
+    "contains": "default",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:39.96722028+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "data_sent",
+    "type": "counter",
+    "contains": "data",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "data_sent"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:40.703021638+05:45",
+    "value": 76,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_sent"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "data_received",
+    "type": "counter",
+    "contains": "data",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "data_received"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:40.703021638+05:45",
+    "value": 11038,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_received"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "iteration_duration",
+    "type": "trend",
+    "contains": "time",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "iteration_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:40.703021638+05:45",
+    "value": 1723.720286,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iteration_duration"
+}
+{
+  "type": "Metric",
+  "data": {
+    "name": "iterations",
+    "type": "counter",
+    "contains": "default",
+    "tainted": null,
+    "thresholds": [],
+    "submetrics": null,
+    "sub": {
+      "name": "",
+      "parent": "",
+      "suffix": "",
+      "tags": null
+    }
+  },
+  "metric": "iterations"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:40.703021638+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iterations"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:40.967145956+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:40.967145956+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:41.08358064+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_reqs"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:41.08358064+05:45",
+    "value": 380.349138,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:41.08358064+05:45",
+    "value": 0.008292,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_blocked"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:41.08358064+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_connecting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:41.08358064+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_tls_handshaking"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:41.08358064+05:45",
+    "value": 0.045726,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_sending"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:41.08358064+05:45",
+    "value": 380.118681,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_waiting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:41.08358064+05:45",
+    "value": 0.184731,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_receiving"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:41.967213282+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:41.967213282+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.083950841+05:45",
+    "value": 76,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_sent"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.083950841+05:45",
+    "value": 11045,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_received"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.083950841+05:45",
+    "value": 1380.845905,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iteration_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.083950841+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iterations"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.438918304+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_reqs"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.438918304+05:45",
+    "value": 354.78421,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.438918304+05:45",
+    "value": 0.008507,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_blocked"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.438918304+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_connecting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.438918304+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_tls_handshaking"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.438918304+05:45",
+    "value": 0.036859,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_sending"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.438918304+05:45",
+    "value": 351.293582,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_waiting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.438918304+05:45",
+    "value": 3.453769,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_receiving"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.967215527+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:42.967215527+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.439091257+05:45",
+    "value": 76,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_sent"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.439091257+05:45",
+    "value": 11038,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_received"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.439091257+05:45",
+    "value": 1355.081722,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iteration_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.439091257+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iterations"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.760707706+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_reqs"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.760707706+05:45",
+    "value": 321.422609,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.760707706+05:45",
+    "value": 0.008774,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_blocked"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.760707706+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_connecting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.760707706+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_tls_handshaking"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.760707706+05:45",
+    "value": 0.044611,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_sending"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.760707706+05:45",
+    "value": 318.911477,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_waiting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.760707706+05:45",
+    "value": 2.466521,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_receiving"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.96724882+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:43.96724882+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:44.761070615+05:45",
+    "value": 76,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_sent"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:44.761070615+05:45",
+    "value": 11038,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_received"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:44.761070615+05:45",
+    "value": 1321.91244,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iteration_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:44.761070615+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iterations"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:44.96723012+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:44.96723012+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:45.113479446+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_reqs"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:45.113479446+05:45",
+    "value": 352.245656,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:45.113479446+05:45",
+    "value": 0.008596,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_blocked"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:45.113479446+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_connecting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:45.113479446+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_tls_handshaking"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:45.113479446+05:45",
+    "value": 0.051537,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_sending"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:45.113479446+05:45",
+    "value": 349.36269,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_waiting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:45.113479446+05:45",
+    "value": 2.831429,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_receiving"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:45.967222225+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:45.967222225+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.113741213+05:45",
+    "value": 76,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_sent"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.113741213+05:45",
+    "value": 11038,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_received"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.113741213+05:45",
+    "value": 1352.637358,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iteration_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.113741213+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iterations"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.547718336+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_reqs"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.547718336+05:45",
+    "value": 433.873817,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.547718336+05:45",
+    "value": 0.005135,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_blocked"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.547718336+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_connecting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.547718336+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_tls_handshaking"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.547718336+05:45",
+    "value": 0.020438,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_sending"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.547718336+05:45",
+    "value": 432.008039,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_waiting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.547718336+05:45",
+    "value": 1.84534,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_receiving"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.967045101+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:46.967045101+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.548109939+05:45",
+    "value": 76,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_sent"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.548109939+05:45",
+    "value": 11038,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_received"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.548109939+05:45",
+    "value": 1434.337546,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iteration_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.548109939+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iterations"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.967217441+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.967217441+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.99850311+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_reqs"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.99850311+05:45",
+    "value": 450.163719,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.99850311+05:45",
+    "value": 0.008344,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_blocked"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.99850311+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_connecting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.99850311+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_tls_handshaking"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.99850311+05:45",
+    "value": 0.060388,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_sending"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.99850311+05:45",
+    "value": 432.236331,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_waiting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:47.99850311+05:45",
+    "value": 17.867,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_receiving"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:48.967187403+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:48.967187403+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:48.99888965+05:45",
+    "value": 76,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_sent"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:48.99888965+05:45",
+    "value": 11045,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_received"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:48.99888965+05:45",
+    "value": 1450.747255,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iteration_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:48.99888965+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iterations"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:49.416091299+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_reqs"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:49.416091299+05:45",
+    "value": 416.890427,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:49.416091299+05:45",
+    "value": 0.009168,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_blocked"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:49.416091299+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_connecting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:49.416091299+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_tls_handshaking"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:49.416091299+05:45",
+    "value": 0.049867,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_sending"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:49.416091299+05:45",
+    "value": 416.670102,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_waiting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:49.416091299+05:45",
+    "value": 0.170458,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_receiving"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:49.96722136+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:49.96722136+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.41641063+05:45",
+    "value": 76,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_sent"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.41641063+05:45",
+    "value": 11038,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_received"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.41641063+05:45",
+    "value": 1417.491426,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iteration_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.41641063+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iterations"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.768614652+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_reqs"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.768614652+05:45",
+    "value": 352.112,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.768614652+05:45",
+    "value": 0.003659,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_blocked"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.768614652+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_connecting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.768614652+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_tls_handshaking"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.768614652+05:45",
+    "value": 0.020541,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_sending"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.768614652+05:45",
+    "value": 349.355892,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_waiting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.768614652+05:45",
+    "value": 2.735567,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_receiving"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.967213187+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:50.967213187+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:51.768883215+05:45",
+    "value": 76,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_sent"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:51.768883215+05:45",
+    "value": 11045,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_received"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:51.768883215+05:45",
+    "value": 1352.454785,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iteration_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:51.768883215+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iterations"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:51.967122025+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:51.967122025+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:52.18605582+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_reqs"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:52.18605582+05:45",
+    "value": 416.894246,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:52.18605582+05:45",
+    "value": 0.008748,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_blocked"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:52.18605582+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_connecting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:52.18605582+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_tls_handshaking"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:52.18605582+05:45",
+    "value": 0.037165,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_sending"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:52.18605582+05:45",
+    "value": 416.698475,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_waiting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:52.18605582+05:45",
+    "value": 0.158606,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_receiving"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:52.967254056+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:52.967254056+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.186391111+05:45",
+    "value": 76,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_sent"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.186391111+05:45",
+    "value": 11038,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_received"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.186391111+05:45",
+    "value": 1417.370446,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iteration_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.186391111+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iterations"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.61393866+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_reqs"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.61393866+05:45",
+    "value": 427.334817,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.61393866+05:45",
+    "value": 0.008913,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_blocked"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.61393866+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_connecting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.61393866+05:45",
+    "value": 0,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_tls_handshaking"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.61393866+05:45",
+    "value": 0.046704,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_sending"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.61393866+05:45",
+    "value": 427.121102,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_waiting"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.61393866+05:45",
+    "value": 0.167011,
+    "tags": {
+      "group": "",
+      "method": "GET",
+      "name": "http://test.k6.io",
+      "proto": "HTTP/1.1",
+      "scenario": "default",
+      "status": "200",
+      "url": "http://test.k6.io"
+    }
+  },
+  "metric": "http_req_receiving"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.967220752+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:53.967220752+05:45",
+    "value": 1,
+    "tags": null
+  },
+  "metric": "vus_max"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:54.614223187+05:45",
+    "value": 76,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_sent"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:54.614223187+05:45",
+    "value": 11045,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "data_received"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:54.614223187+05:45",
+    "value": 1427.798387,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iteration_duration"
+}
+{
+  "type": "Point",
+  "data": {
+    "time": "2020-09-07T20:21:54.614223187+05:45",
+    "value": 1,
+    "tags": {
+      "group": "",
+      "scenario": "default"
+    }
+  },
+  "metric": "iterations"
+}

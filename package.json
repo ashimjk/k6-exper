@@ -1,0 +1,18 @@
+{
+  "name": "k6-exper",
+  "version": "1.0.0",
+  "description": "K6 Experiment",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "k6"
+  ],
+  "author": "Ashim Jung Khadka",
+  "license": "ISC",
+  "dependencies": {
+    "@types/k6": "^0.26.1",
+    "k6": "0.0.0"
+  }
+}
