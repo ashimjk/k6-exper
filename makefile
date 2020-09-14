@@ -10,3 +10,5 @@ output:
 summary:
 	k6 run --summary-export=sample/export.json sample/script.js
 
+env:
+	k6 run -e MY_HOSTNAME=test.k6.io exercise/env/env.js
