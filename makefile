@@ -12,3 +12,6 @@ summary:
 
 env:
 	k6 run -e MY_HOSTNAME=test.k6.io exercise/env/env.js
+
+visual1:
+	docker-compose run k6 run /tests/01-simple/test.js
