@@ -2,3 +2,4 @@
 **/dist
 **/.idea
 **/*.iml
+**/k6-test
